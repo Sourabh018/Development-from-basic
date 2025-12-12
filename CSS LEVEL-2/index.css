@@ -1,0 +1,67 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+     
+}
+
+
+h1, h3{
+    color: #b92b27 !important;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: white;
+}
+
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+.upvote + button{
+    background-color: chocolate;
+    color: white;
+
+}
+
+div>input{
+    background-color: rgb(204, 193, 189);
+    color: black;
+}
+#myid p{
+    color: green;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+ 
+h1::first-letter{
+    color: palegoldenrod;
+}
+p::first-line{
+    color: purple;
+}
+
+p::selection{
+    background-color: rgb(207, 207, 135);
+}
